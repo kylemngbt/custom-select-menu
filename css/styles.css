@@ -28,4 +28,12 @@ html {
   margin-bottom: 30px;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#select-field img {
+  width: 12px;
 }
