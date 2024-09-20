@@ -9,3 +9,6 @@ options.forEach((option) => {
   })
 })
 
+selectField.addEventListener("click", () => {
+  list.classList.toggle("hide");
+})
