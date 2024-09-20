@@ -6,6 +6,7 @@ const list = document.querySelector("#list");
 options.forEach((option) => {
   option.addEventListener("click", () => {
     selectText.textContent = option.textContent;
+    list.classList.toggle("hide");
   })
 })
 
