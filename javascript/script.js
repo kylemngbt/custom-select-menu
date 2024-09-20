@@ -8,9 +8,11 @@ options.forEach((option) => {
   option.addEventListener("click", () => {
     selectText.textContent = option.textContent;
     list.classList.toggle("hide");
+    arrowIcon.classList.toggle("rotate");
   })
 })
 
 selectField.addEventListener("click", () => {
   list.classList.toggle("hide");
+  arrowIcon.classList.toggle("rotate");
 })
