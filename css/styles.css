@@ -67,3 +67,7 @@ html {
 .hide {
   visibility: hidden;
 }
+
+.rotate {
+  transform: rotate(180deg);
+}
